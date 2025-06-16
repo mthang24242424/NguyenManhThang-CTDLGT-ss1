@@ -12,10 +12,10 @@ int sum2(int n) {
 }
 int main() {
     int n;
-    printf("Enter number: ");
+    printf("nhap n: ");
     scanf("%d", &n);
-    printf("The sum is: %d\n", sum1(n));
-    printf("The sum is: %d\n", sum2(n));
+    printf("tong cua day so tinh theo sum1 la: %d\n", sum1(n));
+    printf("tong cua day so tinh theo sum2 la: %d\n", sum2(n));
     return 0;
 }
 // độ phức tạp của hàm sum1 là O(n) vì sử dụng vòng lặp for dựa theo n từ nguười dùng nhập vào
